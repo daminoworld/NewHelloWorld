@@ -23,7 +23,7 @@ struct Shoe1: View {
                 }
 //                shoes1.scale = .init(repeating: 0.5)
                 content.add(shoes1)
-                shoes1.setPosition(SIMD3<Float>(x: .zero, y: -0.3, z: 0.1), relativeTo: shoes1.parent)
+                shoes1.setPosition(SIMD3<Float>(x: .zero, y: -0.05, z: 0.15), relativeTo: shoes1.parent)
                 shoes = shoes1
             } update: { content in
                 configure()
