@@ -27,12 +27,14 @@ struct WorldApp: App {
         .windowStyle(.plain)
 
         // A volume that displays a globe.
+        // Learned: Volumetric window의 max 사이즈는 2x2x2이다.
+        // Learned: Volume의 사이즈는 처음 띄워질때 크기로 고정된다
         WindowGroup(id: Module.globe.name) {
-            Globe()
-                .environment(model)
+            Shoe1()
+                .aspectRatio(contentMode: .fit)
         }
         .windowStyle(.volumetric)
-        .defaultSize(width: 0.6, height: 0.6, depth: 0.6, in: .meters)
+        .defaultSize(width: 0.01, height: 0.01, depth: 0.01, in: .meters)
 
         // An immersive space that places the Earth with some of its satellites
         // in your surroundings.
