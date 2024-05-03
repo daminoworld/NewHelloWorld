@@ -21,6 +21,7 @@ struct Modules: View {
 
         ZStack {
             // Controls visible only when showing the solar system view.
+            // SolarSystemControl을 ZStack으로 이미 띄워놓고 투명도로 보이는것을 조절
             SolarSystemControls()
                 .opacity(model.isShowingSolar ? 1 : 0)
 

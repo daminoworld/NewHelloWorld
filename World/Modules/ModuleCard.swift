@@ -12,6 +12,8 @@ struct ModuleCard: View {
     var module: Module
 
     var body: some View {
+        // Learned: NavigationLink가 있으면 호버 이펙트처럼 하이라이팅 이펙트가 추가됨
+        // Button 역할인것 들에는 자연스럽게 호버이펙트가 적용되는듯
         NavigationLink(value: module) {
             VStack(alignment: .leading, spacing: 4) {
                 Text(module.eyebrow)
