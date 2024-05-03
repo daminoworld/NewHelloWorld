@@ -15,7 +15,7 @@ class ViewModel {
     var navigationPath: [Module] = []
     var titleText: String = ""
     var isTitleFinished: Bool = false
-    var finalTitle: String = "Hello World"
+    var finalTitle: String = "Let's visionOS"
 
     // MARK: - Globe
     var isShowingGlobe: Bool = false
@@ -35,7 +35,7 @@ class ViewModel {
     var solarSatellite: SatelliteEntity.Configuration = .solarTelescopeDefault
     var solarMoon: SatelliteEntity.Configuration = .solarMoonDefault
 
-    var solarSunDistance: Double = 700
+    var solarSunDistance: Double = 100
     var solarSunPosition: SIMD3<Float> {
         [Float(solarSunDistance * sin(solarEarth.sunAngle.radians)),
          0,
