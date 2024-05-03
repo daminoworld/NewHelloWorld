@@ -1,0 +1,76 @@
+{
+  "6AF421D5-F098-4D35-8830-F4BB228EF79A" : {
+    "objectMetadataList" : [
+      [
+        "6AF421D5-F098-4D35-8830-F4BB228EF79A",
+        "Root",
+        "Earth",
+        "Earth"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "6AF421D5-F098-4D35-8830-F4BB228EF79A",
+        "Root",
+        "Earth"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "6AF421D5-F098-4D35-8830-F4BB228EF79A",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "54AECA35-A8AD-4D33-9F48-FA986656BC3D" : {
+    "objectMetadataList" : [
+      [
+        "54AECA35-A8AD-4D33-9F48-FA986656BC3D",
+        "Root",
+        "converse_obj",
+        "Materials"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "54AECA35-A8AD-4D33-9F48-FA986656BC3D",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "54AECA35-A8AD-4D33-9F48-FA986656BC3D",
+        "Root",
+        "converse_obj"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "B4C6A378-458F-4D94-ACEF-9F2262B83E88" : {
+    "objectMetadataList" : [
+      [
+        "B4C6A378-458F-4D94-ACEF-9F2262B83E88",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  }
+}
